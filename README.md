@@ -8,7 +8,7 @@ by Sameer Segal (@sameersegal), Artoo (@artootrills)
 ## Usage
 You will need a design document to index documents. Refer to the <a href="https://github.com/rnewson/couchdb-lucene/#indexing-strategy">Indexing Strategy</a> on CouchDB-Lucene wiki.
 
-Include TouchDB-Android-Lucene as an Android Library project in your activity code use the following snippet to make a request to TDLucene:
+Include TouchDB-Android-Lucene as an Android Library Project. In your activity, make a request to TDLucene:
 ``` java
 		try {
 
