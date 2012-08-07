@@ -6,10 +6,10 @@ by Sameer Segal (@sameersegal), Artoo (@artootrills)
 **TouchDB-Android-Lucene** is the Androdi port of <a href="https://github.com/rnewson/couchdb-lucene/">CouchDB Lucene</a> that is meant to work along with <a href="https://github.com/couchbaselabs/TouchDB-Android">TouchDB-Android</a>.
 
 ## Usage
-		You will need a design document to index documents. Refer to the <a href="https://github.com/rnewson/couchdb-lucene/#indexing-strategy">Indexing Strategy</a> on CouchDB-Lucene wiki.
+You will need a design document to index documents. Refer to the <a href="https://github.com/rnewson/couchdb-lucene/#indexing-strategy">Indexing Strategy</a> on CouchDB-Lucene wiki.
 
-		Include TouchDB-Android-Lucene as an Android Library project in your activity code use the following snippet to make a request to TDLucene:
-		``` java
+Include TouchDB-Android-Lucene as an Android Library project in your activity code use the following snippet to make a request to TDLucene:
+``` java
 		try {
 
 				if (lucene == null) {
@@ -91,10 +91,10 @@ public TDStatus do_POST_Document_all_docs(TDDatabase _db, String _docID,
 ```
 
 ## To Do
-	- Testing code
-	- Make config more generic
+- Testing code
+- Make config more generic
 
 ## Special Thanks
-		- Robert Newson (@rnewson)
-		- Marty Schoch (@mschoch)
-		- Jens Alfke (@snej) 
+- Robert Newson (@rnewson)
+- Marty Schoch (@mschoch)
+- Jens Alfke (@snej) 
